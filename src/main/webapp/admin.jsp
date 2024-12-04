@@ -19,12 +19,14 @@
 	}
 %>
 
+
 <%
 							CategoryDao cdao = new CategoryDao(FactoryProvider.getFactory());
 							List<Category> list = cdao.getCategories();
 						    
 							Map<String, Long> m= Helper.getCounts(FactoryProvider.getFactory());
 						%>
+
 
 
 
@@ -99,7 +101,7 @@
 
 						</div>
 						<h1><%=m.get("productCount") %></h1>
-						<h1>Product</h1>
+						<h1>Products</h1>
 
 					</div>
 				</div>
@@ -120,7 +122,7 @@
 								src="img/keys.png" alt="user.png">
 						</div>
 						<p class="mt-2">Click here to add new category</p>
-						<h1>Add Categories</h1>
+						<h1>Add Category</h1>
 					</div>
 				</div>
 			</div>
@@ -135,7 +137,7 @@
 								src="img/add.png" alt="user.png">
 						</div>
 						<p class="mt-2">Click here to add new product</p>
-						<h1>Add Products</h1>
+						<h1>Add Product</h1>
 					</div>
 				</div>
 			</div>
