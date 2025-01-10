@@ -1,3 +1,5 @@
+<!-- Check out page -->
+
 <%
 User user = (User) session.getAttribute("current-user");
 if (user == null) {

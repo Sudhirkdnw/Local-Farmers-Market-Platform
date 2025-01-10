@@ -1,3 +1,4 @@
+<!-- Navbar page -->
 <%@page import="com.learn.mycart.entities.User" %>
 <%
 User user1=(User)session.getAttribute("current-user");

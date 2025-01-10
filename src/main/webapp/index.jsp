@@ -1,3 +1,4 @@
+<!-- Index page -->
 
 <%@page import="com.learn.mycart.helper.Helper"%>
 <%@page import="com.learn.mycart.dao.CategoryDao"%>

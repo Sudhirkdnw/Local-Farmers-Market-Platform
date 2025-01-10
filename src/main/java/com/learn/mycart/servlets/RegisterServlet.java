@@ -20,7 +20,7 @@ public class RegisterServlet extends HttpServlet {
 
     public RegisterServlet() {
         super();
-        // TODO Auto-generated constructor stub
+        // TODO Auto-generated constructor
     }
 
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
@@ -60,3 +60,5 @@ public class RegisterServlet extends HttpServlet {
 	}
 
 }
+
+//That is the register page 
